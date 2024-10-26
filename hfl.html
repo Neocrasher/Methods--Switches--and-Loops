@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var g = "HOw Are yOu";
+        document.write(g.toUpperCase())
+        document.write("<br>")
+        document.write(g.toLowerCase())
+        document.write("<br>")
+        document.write(g.startsWith("A"))
+        document.write("<br>")
+        var pat = new RegExp("Are")
+        var e = pat.test(g)
+        document.write(e)
+    </script>
+</body>
+</html>
